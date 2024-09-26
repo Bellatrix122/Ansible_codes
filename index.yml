@@ -1,0 +1,9 @@
+-
+ name: Pb on examle
+ hosts: all
+ become: yes
+ tasks:
+ - name: code to install apache web server
+   yum:
+     name: httpd
+     status: present
