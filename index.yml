@@ -4,6 +4,6 @@
  become: yes
  tasks:
  - name: code to install apache web server
-   yum:
+   yum: 
      name: httpd
      state: present
